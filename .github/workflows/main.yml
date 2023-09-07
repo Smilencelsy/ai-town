@@ -38,4 +38,4 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 指定密钥
         BRANCH: master  ##指定推送到的远程分支
-        FOLDER: /docs # 指定构建之后要推送哪个目录的代码
+        FOLDER: /dict # 指定构建之后要推送哪个目录的代码
